@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG图像测试</title>
+</head>
+<body>
+    <img src="sad_cat.svg" alt="伤心的猫" title="伤心的猫" width="100" height="100">
+    <br>
+    <svg height="110" width="400">
+        <rect width="300" height="100" fill="skyblue" stroke-width="3" stroke="black">
+    </svg>
+
+    <br>
+    
+    <!--矩形rect，rx,ry可以获得圆角矩形,其他的还有circle圆，ellipse椭圆，多边形polygon,折线polyline-->
+    <svg width="400" height="180">
+        <rect x="50" y="20" width="150" height="150" fill="skyblue" stroke="tomato"
+        stroke-width="5" fill-opacity="0.1" stroke-opacity="0.9" rx="20" ry="20">
+    </svg>
+
+    <br>
+
+    <svg width="500" height="210">
+        <polygon points="100,10 40,198 198,78 10,78 160,198" fill="red" stroke="tomato">
+    </svg>
+
+    <br>
+
+    <!--文本框text,transform变换=rotate旋转-->
+    <svg width="300" height="400">
+        <text transform="rotate(50 10 60)">Interesting</text>
+    </svg>
+
+    <br>
+
+    <!--文本框可以添加链接，比较麻烦 用的时候查吧-->
+</body>
+</html>

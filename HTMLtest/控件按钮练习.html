@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信息表</title>
+</head>
+<body>
+    <h1 align="center">信息表</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia at magnam culpa maiores repudiandae quae dolorum quasi dolor quam id saepe veniam ab adipisci ullam perspiciatis sequi, aut consectetur fugiat deserunt unde excepturi quisquam? Quo aut incidunt, repellendus dolorum eligendi illo maiores eaque quaerat obcaecati, quod dolores corrupti. Similique, minima.</p>
+
+    <form action="http://raink.net/api/htme/same" target="_self">
+        <fieldset>
+            <legend>基本信息</legend>
+            <h4>1,姓名</h4>
+            <input type="text">
+            <h4>2,手机</h4>
+            <input type="text" value="12345678910" readonly>
+            <h4>3,性别</h4>
+            <input type="radio" name="gender">男
+            <input type="radio" name="gender">女
+            <input type="radio" name="gender" disabled>其他
+            <h4>4,地址</h4>
+            <select name="" id="">
+                <option value="">省</option>
+            </select>
+            <select name="" id="">
+                <option value="">市</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="" id="" cols="65" rows="4">输入详细地址</textarea>
+            <h4>5,身体状况</h4>
+            <input type="checkbox">健康
+            <br>
+            <input type="checkbox">亚健康
+            <br>
+            <input type="checkbox">不健康
+            <br>
+            <h4>6,健康码颜色</h4>
+            <input type="radio" name="color">绿色
+            <input type="radio" name="color">黄色
+            <input type="radio" name="color">红色
+        </fieldset>
+
+        <fieldset>
+            <legend>保密信息</legend>
+            <h4>1,身份证</h4>
+            正面：<input type="file">
+            <br>
+            <br>
+            背面：<input type="file">
+            <br>
+            <h4>2,学历</h4> 
+            <select name="" id="">
+                <option value="">博士</option>
+                <option value="">硕士</option>
+                <option value="">本科</option>
+                <option value="">大专</option>
+                <option value="">高中及以下</option>
+            </select>
+            <h4>3,个人意见</h4>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+        </fieldset>
+        <input type="submit" value="上传信息">
+        <input type="reset" valse="清空信息">
+        <input type="image" src="CA.png">
+    </form>
+</body>
+</html>
