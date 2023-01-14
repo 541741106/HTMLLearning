@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪元素选择器</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: bisque;
+        }
+
+        /*第一个字母first-letter*/
+        div::first-letter {
+            color: blue;
+            font-size: 30px;
+        }
+
+        /*第一行first-line*/
+        div::first-line {
+            color: blue;
+            font-size: 25px;
+        }
+
+        /*向前before/向后after插入内容*/
+        div::before {
+            content: "向前";
+        }
+
+        div::after {
+            content: "向后";
+        }
+
+        /*修改selection选中文本时的样式
+        只支持color,background,cursor鼠标样式,outline描边效果
+        */
+        div::selection {
+            color:aqua;
+            background: fixed;
+            cursor: alias;
+            outline: invert;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        第一行 <br>
+        第二行 <br>
+        第三行
+    </div>
+</body>
+</html>

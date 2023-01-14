@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器pseudo_class</title>
+    <!--主要用于超链接-->
+    <style>
+        a:link {
+            /*默认显示样式*/
+            color:red;
+        }
+
+        a:visited {
+            /*访问后样式*/
+            color:green;
+        }
+
+        a:hover {
+            /*悬停时样式*/               
+            color: yellow;
+        }
+
+        a:active {
+            /*点击时样式*/
+            color: skyblue;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+        }
+
+        div:hover {
+            background-color: red;
+        }
+
+        div:active {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, aut.</a>
+
+    <div>普通div标签</div>
+</body>
+</html>

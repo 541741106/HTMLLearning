@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单选择器Simple-selector</title>
+    <style>
+        /*通用选择器*/
+        * {
+            background-color: aqua;
+        }
+
+        h1 {
+            text-align: center;
+            color: purple;
+        }
+
+        p {
+            color: red;
+        }
+
+        /*选择id为para2的段落*/
+        #para2 {
+            text-align: center;
+        }
+
+        /*定义class*/
+        /*.italic {
+            font-style: italic;
+        }*/
+
+        .deco {            
+            text-decoration: underline;
+        }
+
+        /*分组选择器*/
+        h1, #para2 {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!--定义一类class的属性，h1和para2都是class italic，同时h2还是deco类-->
+    <h1 class="italic">Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, unde provident! Vel exercitationem ut voluptates corporis laboriosam tempore consequatur quam fugit ipsam, numquam officia ex pariatur possimus perspiciatis sunt rem, quidem blanditiis quaerat excepturi dolore ipsum quis enim. Reprehenderit inventore qui eveniet enim minima sapiente, commodi possimus eius quis? Quas maiores totam ipsum corrupti in voluptas. Accusamus earum nemo aliquid temporibus veniam rerum minima voluptates distinctio totam debitis.</p>
+
+    <p id="para2" class="italic deco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestias, odio quod libero commodi inventore illum accusamus magnam mollitia nostrum suscipit alias enim facere hic iure? Eaque, cumque. Sint, esse. Laborum animi, dignissimos ullam rerum rem enim itaque nobis nostrum praesentium exercitationem voluptatem, eligendi molestias ea necessitatibus, iusto quibusdam non expedita iure. Tempora, placeat perspiciatis dolores saepe facilis accusamus beatae sunt voluptas quos exercitationem magnam id pariatur sequi quae illum itaque commodi deleniti rem. Laudantium minima sequi ab ad enim ipsa sed. Placeat voluptas veritatis beatae accusantium modi ab eveniet maxime accusamus eaque, dolores quas quos earum labore cumque esse.</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>组合选择器Cominators</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        /*
+        .color {
+            color: blue;
+        }*/
+
+        /*后代选择器 用 隔开*/
+        div h3 {
+            color: blue;
+        }
+
+        div li p {
+            color: blue;
+        }
+
+        /*子选择器 用>表示*/
+        div>p {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum recusandae voluptatum omnis consequatur alias, totam cum commodi in repellendus. Molestias fugiat sapiente omnis sed rerum, aut assumenda odio corporis labore veniam beatae soluta, sunt laboriosam similique quo harum iste. Odio quis molestiae earum odit amet voluptatum architecto, soluta exercitationem voluptates?</p>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <ol>
+            <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li>
+                <p>Lorem ipsum dolor sit.</p>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
