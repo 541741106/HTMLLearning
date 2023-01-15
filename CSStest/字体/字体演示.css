@@ -1,0 +1,12 @@
+body {
+    color: blue;
+}
+
+h1 {
+    color: green;
+}
+
+/*uppercase大写，lowercase小写，capitalize首字母大写*/
+p.transform {
+    text-transform: uppercase;
+}

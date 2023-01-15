@@ -18,11 +18,12 @@
             height: 20px;
         }
 
-        /*选中带box的类*/
+        /*选中类名为box的类*/
         [class~="box"] {
             background-color: yellow;
         }
 
+        /*选择只有box或由box-开头的类，覆盖了上一个生命中的第一个div框*/
         [class|="box"] {
             background-color: blue;
         }

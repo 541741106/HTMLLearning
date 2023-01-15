@@ -1,0 +1,44 @@
+p {
+    width: 200px;
+    text-indent: 2em;
+    line-height: 1;
+    word-spacing: 20px;
+    white-space: nowrap;
+}
+
+p.a {
+    text-align: left;
+}
+
+p.b {
+    text-align: center;
+}
+
+p.c {
+    text-align: right;
+}
+
+img.a {
+    vertical-align: baseline;
+}
+    
+img.b {
+    vertical-align: text-top;
+}
+    
+img.c {
+    vertical-align: text-bottom;
+}
+    
+img.d {
+    vertical-align: sub;
+}
+    
+img.e {
+    vertical-align: super;
+}
+    
+/*字间隔*/
+h1 {
+    letter-spacing: 5px;
+}
