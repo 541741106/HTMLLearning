@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectorWeight选择器权重</title>
+</head>
+<body>
+    <table border="1" align="center">
+        <tr>
+            <th></th>
+            <th>选择器Selector</th>
+            <th>例子Example</th>
+            <th>权重Weight</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>通用选择器General</td>
+            <td>*</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>元素选择器Element</td>
+            <td>h1, div, p</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>类选择器Class</td>
+            <td>.active, .light</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>ID选择器</td>
+            <td>#box, #btn</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>行内选择器Inline</td>
+            <td>&lt;h1 style=""&gt;</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <pre style="font-size: 15px">
+    #box p .lignt { /*Weight = 100 + 1 + 10 =111*/
+        color: red
+    }
+
+    
+    #box .lignt { /*Weight = 100 + 10 =11*/
+            color: red
+        }
+    </pre>
+</body>
+</html>

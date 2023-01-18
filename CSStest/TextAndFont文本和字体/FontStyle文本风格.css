@@ -1,0 +1,27 @@
+/*font-style*/
+/*font-weight 字体粗细 lighter normal bold bolder 100-900*/
+h1 {
+    font-weight: normal;
+}
+
+p.p1 {
+    font-style: normal;
+    font-weight: bold;
+}
+
+p.p2 {
+    font-style: italic;
+    font-weight: 700;
+}
+
+/*font-variant: small-caps 小型大写字母*/
+/*font: 空格隔开属性*/
+p.p3 {
+    /*font-style: oblique;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Courier New';*/
+    font: oblique 100 small-caps 30px/30px 'Courier New';
+}

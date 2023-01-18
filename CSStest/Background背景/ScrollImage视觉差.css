@@ -1,0 +1,41 @@
+* {
+    /*消除元素默认内外边距*/
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+div {
+    height: 100%;
+}
+    
+.box1 {
+    /*background: darkblue;*/
+    background-image: url(重装骑射.png);
+    background-repeat: no-repeat;
+    /*平铺*/
+    background-position: center center;
+    background-attachment: fixed;
+    /*background: url(重装骑射.png) no-repeat center center fixed;*/
+}
+
+.box2 {
+    /*background: darkcyan;*/
+    background-image: url(钦查骑射.jpg);
+    background-repeat: no-repeat;
+    /*平铺*/
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.box3 {
+    /*background: darkgreen;*/
+    background-image: url(蒙古突骑.jpg);
+    background-repeat: no-repeat;
+    /*平铺*/
+    background-position: center center;
+    background-attachment: fixed;
+}

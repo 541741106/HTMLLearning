@@ -1,0 +1,14 @@
+html,body {
+    height: 100%;
+    /*默认平铺*/
+    /*background-image: url(biu.gif);*/
+    background-color: rgba(0, 255, 0, 0.1);
+
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+
+
+    background-repeat: repeat;
+    /*背景图片固定*/
+    background-attachment: fixed;
+}

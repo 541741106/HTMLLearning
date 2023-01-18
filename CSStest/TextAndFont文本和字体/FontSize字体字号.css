@@ -1,0 +1,23 @@
+html { /*根元素root element*/
+    font-size: 16px;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: PingFang SC;
+}
+
+h3 {
+    font-family: "Courier New", "BrushScript", Copperplate;
+}
+
+p {
+    font-family: 华文仿宋;
+    /*font-size: 20px;固定大小*/
+    /*font-size: 2em;相对于父元素大小(body)*/
+    /*font-size: 200%;同上*/
+    font-size: 2rem; /*根据根元素(html)*/
+}

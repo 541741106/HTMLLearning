@@ -1,0 +1,56 @@
+#square {
+    width: 150px;
+    height: 150px;
+    border-top: 50px solid red;
+    border-right: 50px solid yellow;
+    border-left: 50px solid blue;
+    border-bottom: 50px solid green;
+}
+
+#triangle {
+    width: 0px;
+    height: 0px;
+    border: 50px solid transparent;
+    border-top: 50px solid red;
+    /*border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid transparent;*/
+}
+
+#trapezium {
+    width: 0px;
+    height: 0px;
+    /*border-top: 50px solid red;*/
+    border-right: 50px solid blue;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid blue;
+}
+
+#windowmills {
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+}
+
+#windowmills div {
+    width: 0px;
+    height: 0px;
+    border: 50px solid transparent;
+    float: left;
+}
+
+#windowmills .box1 {
+    border-bottom: 50px solid red;
+}
+
+#windowmills .box2 {
+    border-left: 50px solid red;
+}
+
+#windowmills .box3 {
+    border-right: 50px solid red;
+}
+
+#windowmills .box4 {
+    border-top: 50px solid red;
+}
