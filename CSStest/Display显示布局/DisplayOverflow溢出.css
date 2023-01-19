@@ -1,0 +1,30 @@
+#overflowTest {
+    background: #4caf50;
+    padding: 15px;
+    border: 1px solid #ccc;
+
+    /*默认情况溢出完全显示内容*/
+    width: 30%;
+    height: 300px;
+
+    
+    /*默认全显示*/
+    overflow: visible;
+    /*无滚动条隐藏*/
+    overflow: hidden;
+    /*滚动条*/
+    overflow: scroll;
+
+    /*单方向的滚动条*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+h1 {
+    width: 310px;
+    overflow: hidden;
+    /*只显示一行*/
+    white-space: nowrap;
+    /*用...显示更多*/
+    text-overflow: ellipsis;
+}

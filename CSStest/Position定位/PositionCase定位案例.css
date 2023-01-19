@@ -1,0 +1,92 @@
+.CV {
+    width: 140px;
+    height: 34px;
+    background-color: #fff;
+    border: solid #eee;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 34px;
+    color: darkblue;
+    font-size: 12px;
+    position: relative;
+}
+
+.CV img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    top: -1px;
+    position: relative;
+}
+
+.CV span {
+    display: inline-block;
+    padding: 1px 3px;
+    background-color: darkblue;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+}
+
+.swiper {
+    height: 400px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+.swiper .right,
+.swiper .left {
+    width: 50px;
+    height: 100%;
+    /*line-height: 400px;*/
+    text-align: center;
+    position: relative;
+}
+
+.swiper .left {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.swiper .left img,
+.swiper .right img {
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    margin-top: -20px;
+}
+
+.swiper .slider ul,
+.swiper .slider li {
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    list-style: none;
+}
+
+.swiper .slider ul {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -75px;
+}
+
+.swiper .slider li {
+    float: left;
+    width: 30px;
+}
+
+.swiper .slider li img {
+    width: 30px;
+    height: 30px;
+}
